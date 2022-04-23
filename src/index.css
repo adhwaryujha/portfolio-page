@@ -4,8 +4,8 @@ body {
   font-family: "Poppins", sans-serif;
   font-family: "Roboto", sans-serif;
   background-color: #121630;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
   color: white;
   line-height: 1.7;
 }

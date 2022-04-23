@@ -2,7 +2,7 @@ import classes from "./Header.module.css";
 import cv from "../../assets/Adhwaryu Jha Resume.pdf";
 // import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import avatar from "../../assets/Web-development,-programmer-engineering-and-coding-website-on-augmented-reality-interface-screens-on-transparent-background-PNG.png";
-import NavBar from "../nav/NavBar";
+// import Typewriter from "typewriter-effect";
 
 const Header = () => {
   return (

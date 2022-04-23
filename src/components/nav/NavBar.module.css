@@ -1,0 +1,33 @@
+.navBar {
+  background: rgba(0, 0, 0, 0.3);
+  width: max-content;
+  display: block;
+  padding: 0.7rem 1.7rem;
+  z-index: 2;
+  bottom: 2rem;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 3rem;
+  display: flex;
+  gap: 0.8rem;
+  backdrop-filter: blur(15px);
+}
+
+.navBar a {
+  background: transparent;
+  padding: 0.9rem;
+  border-radius: 50%;
+  display: flex;
+  color: #e3f1c7;
+  font-size: 1.1rem;
+}
+
+.navBar a:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.navBar a.active {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
