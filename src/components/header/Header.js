@@ -2,7 +2,7 @@ import classes from "./Header.module.css";
 import cv from "../../assets/Adhwaryu Jha Resume.pdf";
 // import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import avatar from "../../assets/Web-development,-programmer-engineering-and-coding-website-on-augmented-reality-interface-screens-on-transparent-background-PNG.png";
-// import Typewriter from "typewriter-effect";
+import Typewriter from "typewriter-effect";
 
 const Header = () => {
   return (
@@ -10,7 +10,13 @@ const Header = () => {
       <div className={classes.container__intro}>
         <h3>Hello I'm</h3>
         <h1>Adhwaryu Jha</h1>
-        <h5>Software Engineer</h5>
+        <Typewriter
+          options={{
+            strings: ["Software", "Engineer"],
+            autoStart: true,
+            loop: true,
+          }}
+        />
       </div>
       <div className={classes.links}>
         <a className={classes.links__btn1} href={cv} download>

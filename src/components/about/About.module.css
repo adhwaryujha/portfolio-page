@@ -1,0 +1,36 @@
+.about {
+  padding-top: 5rem;
+  padding-left: 13rem;
+}
+.about h1 {
+  font-weight: bold;
+  color: white;
+}
+
+.about h1:after {
+  content: "";
+  width: 120px;
+  height: 2px;
+  background: #000;
+  right: 0;
+  top: 50%;
+  position: absolute;
+}
+
+.about div {
+  display: flex;
+  gap: 10rem;
+  /* align-items: center; */
+}
+
+.about div img {
+  width: 22rem;
+  height: 30rem;
+  border-radius: 10px;
+}
+
+.paragraph {
+  width: 50%;
+  height: 50%;
+  color: aqua;
+}
