@@ -13,7 +13,9 @@ const About = () => {
             learning new things.
           </p>{" "}
         </div>
-        <img src={image} alt="coder" />
+        <div className={classes.image}>
+          <img src={image} alt="coder" />
+        </div>
       </div>
     </section>
   );

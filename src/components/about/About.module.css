@@ -7,7 +7,7 @@
   color: white;
 }
 
-.about h1:after {
+/* .about h1:after {
   content: "";
   width: 120px;
   height: 2px;
@@ -15,22 +15,33 @@
   right: 0;
   top: 50%;
   position: absolute;
-}
+} */
 
 .about div {
   display: flex;
-  gap: 10rem;
+  gap: 3rem;
   /* align-items: center; */
 }
 
-.about div img {
+.image img {
   width: 22rem;
-  height: 30rem;
+  height: 22rem;
   border-radius: 10px;
+  background: linear-gradient(#4db5ff, transparent);
+  transform: rotate(10deg);
+}
+
+.image {
+  border: 3px solid rgba(135, 219, 66, 0.986);
+  border-radius: 10px;
+}
+
+.image img:hover {
+  transform: rotate(0deg);
 }
 
 .paragraph {
   width: 50%;
   height: 50%;
-  color: aqua;
+  color: rgba(218, 248, 248, 0.829);
 }
