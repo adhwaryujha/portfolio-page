@@ -11,7 +11,7 @@ const About = () => {
             Hi!!! I am Adhwaryu, a software engineer, a cricket lover, and a
             wanderer. By wanderer I mean a man who is constantly exploring and
             learning new things.
-          </p>{" "}
+          </p>
         </div>
         <div className={classes.image}>
           <img src={image} alt="coder" />
